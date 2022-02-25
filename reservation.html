@@ -1,0 +1,67 @@
+<html lang="fr">
+    <head>
+        <title>reservaions des vols</title>
+          <meta charset="utf-8">
+          <!-- Bootstrap core CSS -->
+      <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+          <!-- Custom styles for this template -->
+    <link href="headers.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+          <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <img  id ="image_logo"src="./images/icon1.svg"></a></img>
+              </a>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 link-secondary">Acceuil</a></li>
+                <li><a href="vols.html" class="nav-link px-2 link-dark">vols</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Reservation</a></li>
+              </ul>
+        
+              <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-primary">Deconnexion</button>
+              </div>
+            </header>
+          </div>
+    </header>
+    <form class="row g-3 needs-validation" novalidate>
+        <h1>Résérvation</h1>
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+              <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+            </div>
+           <span>Aller-Retour</span>
+            <div class="input-group-text">
+                <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+              </div>
+            <span> Aller</span>
+        </div>
+         <div class="input-group mb-3">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Lieu Départ</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Lieu Arrivé</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          </div>
+          <div class="input-group mb-3">
+            <input type="date" class="form-control" aria-label="Text input with checkbox">
+            <input type="date" class="form-control" aria-label="Text input with radio button">
+          </div>
+          <div class="input-group mb-3">
+            <input id="button_left" type="number" min="1" max="5" class="form-control" aria-label="Text input with radio button">
+            <button type="button"   class="btn btn-primary">Réserver</button>
+          </div>
+      </form>
+    </body>
+</html>

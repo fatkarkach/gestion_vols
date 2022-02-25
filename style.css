@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.border-bottom {
+    border-bottom: none!important; 
+}
+.link-secondary {
+    color: black;
+}
+.link-dark {
+    color: black;
+}
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+.titres {
+    margin-top: 80px;
+    color: black;
+    font-style: italic;
+}
+span{
+    color: white;
+}
+img#image_logo {
+    width: 120PX;
+}
+button.btn.btn-secondary.btn-lg {
+    MARGIN-TOP: 30px;
+   background-color: #0d6efd;
+   font-style: italic;
+   font: weight 700px;;
+   color:white;
+}
+@media only screen and (max-width: 600px){
+.titres {
+    margin-top: 14px;
+}
+}
+.row.row-cols-1.row-cols-md-3.g-4 {
+    margin-top: -40px;
+}
+form
+{
+    background-color:white;
+    width:60%;
+}
+form.row.g-3.needs-validation {
+    margin: auto;
+    margin-top:0px;
+}
+h1
+{
+    text-align: center;
+}
+div#forms_bt1 {
+    margin-left: 10px;
+}
+div#forms_bt2 {
+    margin-left: 10px;
+}
+input#button_left {
+    margin-right: 34px;
+}
+span
+{
+    color:black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+form#signup {
+    padding: 20px;
+    width:30%;
+    margin: auto;  
+  box-shadow: 5px 10px 8px 10px #888888;
+
+}
+h2
+{
+    line-height:2.2
+
+}
+.form-floating {
+    margin-top: 10px;
+    
+}
+.mb-4 {
+   margin-bottom: 0px!important;
+}
+.w-100 {
+    width: 50%!important;
+    margin-top: 10px;
+}
